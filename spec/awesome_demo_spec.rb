@@ -8,4 +8,10 @@ describe AwesomeDemo do
   it 'does something useful' do
     expect(false).to eq(false)
   end
+
+  context '#foo' do
+    it 'will bar' do
+      expect(subject.foo).to eq 'bar'
+    end
+  end
 end
