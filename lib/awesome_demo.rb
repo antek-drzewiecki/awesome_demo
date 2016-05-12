@@ -1,4 +1,4 @@
-require "awesome_demo/version"
+require 'awesome_demo/version'
 
 module AwesomeDemo
   # Your code goes here...
