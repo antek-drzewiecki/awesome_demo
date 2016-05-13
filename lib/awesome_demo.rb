@@ -6,8 +6,8 @@ module AwesomeDemo
       'bar'
     end
 
-    def my_awesome_hash!
-    	{ "foo" => :bar }
+    def my_awesome_hash
+      { "foo" => :bar }
     end
   end
 end
