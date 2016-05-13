@@ -13,5 +13,9 @@ describe AwesomeDemo do
     it 'will bar' do
       expect(subject.foo).to eq 'bar'
     end
+
+    it 'will hash' do
+      expect(subject.my_awesome_hash!).to eq 'jeml'
+    end
   end
 end
